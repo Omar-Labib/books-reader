@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Books Reader</title>
+
+
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+
+
+  <!-- css -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+
+
+
+
+  <!-- website icon -->
+  <link rel="icon" href="images/book.png" />
+
+
+  <!-- icons -->
+  <script src="https://kit.fontawesome.com/184d302c46.js" crossorigin="anonymous"></script>
+  <!-- bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <section id="title" class="text-white">
+
+    <!-- Nav Bar -->
+    <div class="container-fluid">
+
+
+      <nav class="navbar  navbar-expand-lg navbar-dark">
+        <a class="navbar-brand " href=""><img src="images/book.png" height="50" alt="">
+          Books Reader</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#quotes">Quotes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+      <div class="row header">
+        <div class="col-lg-6">
+          <h1 class="big-heading">Read the way<br />you want</h1>
+          <p>Enjoy thousands of audio books on your smartphone. <br />
+            For only $9.99 per month. Listen free for 14 days!</p>
+          <button type="button" class="btn btn-dark btn-lg my-btn"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg my-btn"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-img" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="icons">
+    <div class="row">
+      <div class="icon-box col-lg-4">
+        <i class="fas fa-check-circle fa-4x icon"></i>
+        <h3>Easy to use.</h3>
+        <p>So easy to use,everyone can could do it.</p>
+
+      </div>
+
+      <div class="icon-box col-lg-4 ">
+        <i class="fas fa-wifi fa-4x icon"></i>
+        <h3>Listen offline.</h3>
+        <p>Download books and Listen to stories anytime, anywhere.</p>
+
+      </div>
+
+
+      <div class="icon-box col-lg-4 ">
+        <i class="fas fa-moon fa-4x  icon"></i>
+        <h3>Sleep timer.</h3>
+        <p>Don't miss out on your story while you snooze!.</p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="quotes">
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="10000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+
+          <h2>Look up at the stars and not down at your feet. Try to make sense of what you see, and wonder about what makes the universe exist. Be curious.</h2>
+          <img class="quotes-img" src="images/hawkings.jpg" alt="dog-profile">
+          <em>Stephen Hawking</em>
+
+        </div>
+        <div class="carousel-item">
+
+          <h2>Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.</h2>
+          <img class="quotes-img" src="images/edison.jpg" alt="dog-profile">
+          <em>Thomas A. Edison</em>
+
+        </div>
+        <div class="carousel-item">
+          <h2>I think it's very important to have a feedback loop, where you're constantly thinking about what you've done and how you could be doing it better.</h2>
+          <img class="quotes-img" src="images/musk.jpg" alt="dog-profile">
+          <em>Elon Musk</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+
+
+
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+
+
+
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2>THOUSANDS OF AUDIOBOOKS AND E-BOOKS ON YOUR MOBILE!</h2>
+    <p>Listen to thousands of audiobooks – everything from bestsellers to acclaimed thrillers, breathtaking novels or weighty biographies. Discover our library today!</p>
+
+
+    <div class="row">
+
+    <div class="pricing-colm col-lg-4 col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h3>Free Trial</h3>
+
+        </div>
+        <div class="card-body">
+          <h2>free for 14 days!</h2>
+          <p>2 audiobooks</p>
+          <p>occasional ads</p>
+          <p>No credit card needed</p>
+          <button type="button" class="btn btn-block btn-lg btn-outline-danger">Sign Up</button>
+        </div>
+
+      </div>
+    </div>
+
+
+
+        <div class="pricing-colm col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Standard</h3>
+
+            </div>
+            <div class="card-body">
+              <h2>$9.99 / monthly</h2>
+              <p>10 audiobooks</p>
+              <p>Ad-free</p>
+              <p>Listen online or off</p>
+              <button type="button" class="btn btn-block btn-lg btn-danger">Sign Up</button>
+
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+        <div class="pricing-colm col-lg-4 col-md-12">
+          <div class="card">
+            <div class="card-header">
+              <h3>Plus</h3>
+
+            </div>
+            <div class="card-body">
+              <h2>$89.99 / annually</h2>
+              <p>Unlimited audiobooks</p>
+              <p>Ad-free</p>
+              <p>Listen online or off</p>
+              <button type="button" class="btn btn-block btn-lg btn-danger">Sign Up</button>
+
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="cta-header">Always have a good book lined up - Listen and read whenever you want.</h3>
+    <p class="cta-body">Read and listen to as many books as you like! Download books offline, listen to several books continuously, choose stories for your kids, or try out a book that you didn't thought you would like to listen to. The best book experience you'd
+      ever had.</p>
+    <!-- <img src="images/alldevices.webp" alt=""> -->
+    <button type="button" class="btn btn-dark btn-lg my-btn"><i class="fab fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-outline-light btn-lg my-btn"><i class="fab fa-google-play"></i> Download</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <i class="fab fa-twitter  footer-btn"></i>
+    <i class="fab fa-facebook-f footer-btn"></i>
+    <i class="fab fa-instagram footer-btn"></i>
+    <i class="fas fa-envelope footer-btn"></i>
+
+    <p>© Copyright 2020 <em>Omar Labib</em></p>
+
+  </footer>
+
+
+</body>
+
+</html>
